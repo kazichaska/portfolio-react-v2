@@ -11,6 +11,7 @@ import image4 from '../../assets/images/techblog.png';
 import image5 from '../../assets/images/pizzahunt.png';
 import image6 from '../../assets/images/weather-dashboard.png';
 import image7 from '../../assets/images/note-taker.png';
+import image8 from '../../assets/images/shop-shine.png';
 
 
 function Portfolio() {
@@ -76,6 +77,14 @@ function Portfolio() {
                                 <img className="portfolio" src={image7} alt="note-taker" />
                                 <a href="https://mysterious-sea-32906.herokuapp.com/">Link to deployed application</a>
                                 <a href="https://github.com/kazichaska/note-taker"><i className="fa-brands fa-github"></i></a>
+                            </div>
+                        </SplideSlide>
+                        <SplideSlide>
+                            <div className="img-container">
+                                <h1>Shop Shine</h1>
+                                <img className="portfolio" src={image8} alt="shop-shine" />
+                                <a href="https://serene-sea-72116.herokuapp.com/">Link to deployed application</a>
+                                <a href="https://github.com/rpkrupali1/shop-shine"><i className="fa-brands fa-github"></i></a>
                             </div>
                         </SplideSlide>
                     </Splide>
